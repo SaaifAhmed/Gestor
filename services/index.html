@@ -289,5 +289,218 @@
 </div>
 <script src="../../unpkg.com/%40webcomponents/webcomponentsjs%402.2.10/webcomponents-bundle.js"></script>
 
+<ws-global src="../ws/globals/footer-code/index.html"><div id="ws-site-footer-wrapper"><ws-branding logo="https://assets.yolacdn.net/wl-logos/yola-273b558f.svg" logo-width="46" message="Get a free website with" theme="dark" url="https://yola.com/"></ws-branding><script data-id="11eadf448b40812a805a0024e86b0c01" data-partner="YOLA" data-url="//analytics.yolacdn.net/tracking.js" data-user="9e4c16e9412845f8b835f0178125f195" id="site_analytics_tracking">
+  var _yts = _yts || [];
+  var tracking_tag = document.getElementById("site_analytics_tracking");
+  _yts.push(["_siteId", tracking_tag.getAttribute('data-id')]);
+  _yts.push(["_userId", tracking_tag.getAttribute('data-user')]);
+  _yts.push(["_partnerId", tracking_tag.getAttribute('data-partner')]);
+  _yts.push(["_trackPageview"]);
+  
+  (function() {
+    function isRunInEditor() {
+      try {
+        return Boolean(window.parent.ws);
+      } catch (e) {
+        return false;
+      }
+    }
 
+    function injectScript() {
+      var yts = document.createElement("script");
+      yts.type = "text/javascript";
+      yts.async = true;
+      yts.src = document.getElementById("site_analytics_tracking").getAttribute('data-url');
+      (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(yts);
+    }
+    
+    if (!isRunInEditor()) {
+      document.addEventListener('DOMContentLoaded', function() {
+        var wsCookieBannerElement = document.querySelector('ws-cookie-banner');
+
+        if (wsCookieBannerElement) {
+          wsCookieBannerElement.addEventListener('ws:cookie-banner', function(event) {
+            if (event.detail && event.detail.accepted) {
+              injectScript();
+            }
+          });
+        } else {
+          injectScript();
+        }
+      });
+    }
+  })();</script><script data-website-animation="" id="ws-website-animation-script-footer-code">
+  (function() {
+    const DATA_OBSERVED_ATTRIBUTE = 'data-ws-observed-slots';
+
+    const createScheduler = (ms) => {
+      let index = 0;
+      const que = [];
+      function removeFromQue(targetTask) {
+        const targetTaskIndex = que.findIndex((task) => task === targetTask);
+          if (targetTaskIndex >= 0) {
+            que.splice(targetTaskIndex, 1)
+          }
+      }
+      function execute(cb) {
+        const task = {
+          execute: execute,
+          isExecuted: false,
+          isPlanned: false,
+          scheduleExecution: scheduleExecution,
+          cancel: cancel,
+          immidiatelyExecute: immidiatelyExecute
+        };
+        function execute() {
+          task.isExecuted = true;
+          cb();
+        }
+        function immidiatelyExecute() {
+          let currentTask = task;
+          const executionQue = [currentTask];
+          while (currentTask.prevTask && !currentTask.prevTask.isExecuted) {
+            currentTask = currentTask.prevTask;
+            executionQue.push(currentTask);
+          }
+          executionQue.reverse().forEach((targetTask) => {
+            targetTask.execute();
+            targetTask.cancel();
+          })
+          if (task.nextTask) {
+            task.nextTask.scheduleExecution();
+          }
+        }
+        function cancel() {
+          if (task.timerId) {
+            clearTimeout(task.timerId)
+          };
+          task.isCanceled = true;
+          const taskIndex = que.findIndex((item) => item === task);
+          removeFromQue(task);
+        }
+        function scheduleExecution() {
+          task.isPlanned = true;
+          if (task.isCanceled) {
+            return;
+          }
+          task.timerId = setTimeout(() => {
+            task.execute();
+            task.isPlanned = false;
+            removeFromQue(task);
+            if (task.nextTask) {
+              task.nextTask.prevTask = null;
+              task.nextTask.scheduleExecution();
+            }
+          }, ms);
+        }
+        if (que.length) {
+          const prevTask = que[que.length - 1];
+          prevTask.nextTask = task;
+          task.prevTask = prevTask;
+        } else {
+          task.scheduleExecution();
+        }
+        task.id = ++index;
+        que.push(task);
+        return task;
+      }
+      return {
+        execute,
+      }
+    }
+
+    const scheduler = createScheduler(300);
+    const schedulerList = new Map();
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        const {
+          target,
+          isIntersecting,
+          intersectionRect: { y: intersectedElementPositionY, bottom: intersectedElementPositionBottom },
+          boundingClientRect: { y: elementPositionY, bottom: elementPositionBottom },
+        } = entry;
+
+        if (
+          (!isIntersecting && elementPositionY < 0) ||
+          (isIntersecting && elementPositionY < 0 && elementPositionBottom >= 0)
+        ) {
+          setObservedSlots(entry, observer);
+          if(schedulerList.get(entry.target)) {
+            schedulerList.get(entry.target).immidiatelyExecute();
+          };
+          observer.unobserve(target);
+          return;
+        }
+
+        if (isIntersecting && elementPositionY >= 0) {
+          const task = scheduler.execute(() => {
+            const { target } = entry;
+            observeSlots(entry, observer);
+          });
+          schedulerList.set(entry.target, task);
+        }
+      });
+    });
+
+    document.querySelectorAll('ws-block').forEach((blockNode) => {
+      if (blockNode.clearObservedSlots) blockNode.clearObservedSlots();
+    });
+
+    document.querySelectorAll('[slot]').forEach((slot) => {
+      if (slot.closest('[slot="header"], [slot="footer"]')) {
+        if (slot.getAttribute('slot') !== 'header' && slot.getAttribute('slot') !== 'footer') {
+          return;
+        }
+      }
+      slot.closest('ws-block').observedSlots = new Set();
+      observer.observe(slot);
+    });
+
+    function setObservedAttrs(target, attributes) {
+      if (!target.firstElementChild) return;
+      target.firstElementChild.setAttribute(DATA_OBSERVED_ATTRIBUTE, attributes);
+    }
+
+    function observeSlots(entry, observer) {
+      const {
+        target,
+        boundingClientRect: { y: elementPositionY },
+      } = entry;
+
+      if (elementPositionY >= 0) {
+        const slotAttribute = target.getAttribute('slot');
+        const observedSlots = target.closest('ws-block').observedSlots;
+
+        if (slotAttribute) {
+          observedSlots.add(slotAttribute);
+        }
+
+        if (observedSlots.size) {
+          setObservedAttrs(target.closest('ws-block'), Array.from(observedSlots).join(' '));
+        }
+      }
+    }
+
+    function setObservedSlots(entry, observer) {
+      const {
+        target,
+        boundingClientRect: { y: elementPositionY },
+      } = entry;
+
+      if (elementPositionY < 0) {
+        const slotAttribute = target.getAttribute('slot');
+        const observedSlots = target.closest('ws-block').observedSlots;
+
+        observedSlots.add(slotAttribute);
+
+        if (observedSlots.size) {
+          setObservedAttrs(target.closest('ws-block'), Array.from(observedSlots).join(' '));
+        }
+      }
+    }
+  })();
+</script></div></ws-global>
+<script src="../ws/bundles/js/5569508b4a45d8894d1e234b6df2349d.js"></script></body>
+<!-- Mirrored from web-spark.yolasite.com/services/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Sep 2020 09:23:00 GMT -->
 </html>
