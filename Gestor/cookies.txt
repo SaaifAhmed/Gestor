@@ -1,6 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-web-spark.yolasite.com	TRUE	/	FALSE	1999999999	__cfduid	dcb8d2913eafb5fcda5c7e0ea98990ad31599810016
-.yolasite.com	TRUE	/	FALSE	1999999999	__cf_bm	b078268d82642a9fb8575b38b575abbecf9b60f9-1599810045-1800-ARkGTpzrc+gGHJ595sS0wBuAVbtLFGXTZbxFRND2sC6um+lD+sYJxeUL4R+xRuMVsGMkEXKm+JvZxeTQ48oA4PFnS35Biy492fVhVMvWu4AmYiyFIxFJq5AsLsY8klJ8MQ==
-web-spark.yolasite.com	TRUE	/	FALSE	1999999999	SameSite	None
-
