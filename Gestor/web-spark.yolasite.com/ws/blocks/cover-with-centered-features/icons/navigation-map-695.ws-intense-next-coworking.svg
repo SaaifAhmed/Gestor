@@ -1,0 +1,5 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-name="layer1" d="M43.2 48.1L36 44.1M36 44.1L18 52M36 44.1V3M18 52L2 44.1V4L18 11.9M18 52V11.9M18 11.9L36 3M36 3L54 11.9V32.2" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer2" d="M52 32C49.3478 32 46.8043 33.0536 44.9289 34.9289C43.0536 36.8043 42 39.3478 42 42C42 51 52 61 52 61C52 61 62 51 62 42C62 39.3478 60.9464 36.8043 59.0711 34.9289C57.1957 33.0536 54.6522 32 52 32Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer3" d="M52 45C53.6569 45 55 43.6569 55 42C55 40.3431 53.6569 39 52 39C50.3431 39 49 40.3431 49 42C49 43.6569 50.3431 45 52 45Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

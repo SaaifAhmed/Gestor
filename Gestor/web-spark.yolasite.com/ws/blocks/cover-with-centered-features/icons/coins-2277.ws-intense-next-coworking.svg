@@ -1,0 +1,8 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-name="layer1" d="M44 12.2C53.9411 12.2 62 9.91665 62 7.1C62 4.28335 53.9411 2 44 2C34.0589 2 26 4.28335 26 7.1C26 9.91665 34.0589 12.2 44 12.2Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer2" d="M26 14.9C26 17.7 34.1 20 44 20C53.9 20 62 17.7 62 14.9M26 22.9C26 25.7 34.1 28 44 28C53.9 28 62 25.7 62 22.9M26 30.9C26 33.7 34.1 36 44 36C53.9 36 62 33.7 62 30.9M38 43.7C39.9 43.9 41.9 44 44 44C53.9 44 62 41.7 62 38.9M26 36.1V7.5" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer3" d="M62 7.1001V46.9001C62 49.7001 53.9 52.0001 44 52.0001C41.9 52.0001 39.9 51.9001 38 51.7001" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer4" d="M20 45.9998C29.9411 45.9998 38 43.7165 38 40.8998C38 38.0832 29.9411 35.7998 20 35.7998C10.0589 35.7998 2 38.0832 2 40.8998C2 43.7165 10.0589 45.9998 20 45.9998Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer5" d="M2 48.8999C2 51.6999 10 53.9999 20 53.9999C30 53.9999 38 51.6999 38 48.8999" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer6" d="M38 40.8999V56.8999C38 59.6999 29.9 61.9999 20 61.9999C10.1 61.9999 2 59.6999 2 56.8999V41.2999" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

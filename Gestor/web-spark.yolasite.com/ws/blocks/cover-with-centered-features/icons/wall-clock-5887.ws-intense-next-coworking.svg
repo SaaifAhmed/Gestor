@@ -1,0 +1,6 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path data-name="layer1" d="M32 62C48.5685 62 62 48.5685 62 32C62 15.4315 48.5685 2 32 2C15.4315 2 2 15.4315 2 32C2 48.5685 15.4315 62 32 62Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer2" d="M52 32H57M32 7V12V7ZM32 52V57V52ZM7 32H12H7Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer3" d="M32 35C33.1046 35 34 34.1046 34 33C34 31.8954 33.1046 31 32 31C30.8954 31 30 31.8954 30 33C30 34.1046 30.8954 35 32 35Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path data-name="layer4" d="M48 18L33.822 32.178M30.084 32.432L21 25L30.084 32.432Z" stroke="#202020" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
