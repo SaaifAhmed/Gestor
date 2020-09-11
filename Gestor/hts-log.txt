@@ -1,0 +1,40 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 11 Sep 2020 09:40:14 at https://web-spark.yolasite.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://web-spark.yolasite.com/ -O1 "E:\Test\Gestor" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:41:36	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/header-code/index.html (from https://web-spark.yolasite.com/)
+09:41:36	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/header/index.html (from https://web-spark.yolasite.com/)
+09:41:36	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/global-header/index.html (from https://web-spark.yolasite.com/)
+09:41:36	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/business-logo/index.html (from https://web-spark.yolasite.com/)
+09:41:36	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/nav-menu/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/cover-with-plain-text/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/cover-with-centered-features/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/cover-with-business-info/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/addresses/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/phones/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/emails/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/business-hours/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/page-title-with-plain-text/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/team-members-with-media/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/counters/index.html (from https://web-spark.yolasite.com/)
+09:41:45	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/cta-with-extra-content/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Warning: 	Retry after error -2 (Receive Time Out) at link https://web-spark.yolasite.com/ws/blocks/cta-with-extra-content/images/image-1.ws-intense-next-coworking.jpg (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/business-card/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/site-name/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/social-links/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/business-name/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/business-description/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/partners-clients-sponsors-awards/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/cover-with-contact-form/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/footer/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/global-footer/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/globals/footer-code/index.html (from https://web-spark.yolasite.com/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/features-with-icons/index.html (from https://web-spark.yolasite.com/services/)
+09:45:27	Error: 	"Not Found" (404) at link https://web-spark.yolasite.com/ws/block-templates/product-with-media/index.html (from https://web-spark.yolasite.com/services/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 17 seconds : 67 links scanned, 37 files written (2324197 bytes overall) [1275252 bytes received at 4022 bytes/sec], 1423084 bytes transferred using HTTP compression in 53 files, ratio 22%, 5.5 requests per connection
+(28 errors, 1 warnings, 0 messages)
