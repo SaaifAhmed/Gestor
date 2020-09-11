@@ -1,0 +1,156 @@
+Uri: https://web-spark.yolasite.com/
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\index.htm
+Content Type: text/html
+
+Uri: https://web-spark.yolasite.com/ws/media-library/b8fb158c449940f3b9c1357b03b11512/cdxx7s.png
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\media-library\b8fb158c449940f3b9c1357b03b11512\cdxx7s.png
+Content Type: image/png
+
+Uri: https://web-spark.yolasite.com/ws/bundles/css/7f059e9b1eabc8572da5a428eeb38d3c.css
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\bundles\css\7f059e9b1eabc8572da5a428eeb38d3c.css
+Content Type: text/css
+
+Uri: https://web-spark.yolasite.com/services/
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\services\index.htm
+Content Type: text/html
+
+Uri: https://web-spark.yolasite.com/ws/resized-images/b40f1e8efd40415fae1eb02bba9b256f/gestor.png
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\resized-images\b40f1e8efd40415fae1eb02bba9b256f\gestor.png
+Content Type: image/png
+
+Uri: https://web-spark.yolasite.com/ws/media-library/d491616be9464876beba540957b30650/banner-bg.png
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\media-library\d491616be9464876beba540957b30650\banner-bg.png
+Content Type: image/png
+
+Uri: https://web-spark.yolasite.com/ws/blocks/cover-with-centered-features/icons/wall-clock-5887.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\cover-with-centered-features\icons\wall-clock-5887.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/cover-with-centered-features/icons/navigation-map-695.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\cover-with-centered-features\icons\navigation-map-695.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/cover-with-centered-features/icons/coins-2277.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\cover-with-centered-features\icons\coins-2277.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/cover-with-business-info/images/image-1.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\cover-with-business-info\images\image-1.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/media-library/fc9a745a57ef48beaaef2254f40593e7/footer-bg.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\media-library\fc9a745a57ef48beaaef2254f40593e7\footer-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/blocks/team-members-with-media/images/image-21.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\team-members-with-media\images\image-21.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/common/icons/facebook-logo.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\common\icons\facebook-logo.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/common/icons/instagram-logo.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\common\icons\instagram-logo.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/common/icons/twitter-logo.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\common\icons\twitter-logo.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/team-members-with-media/icons/outline-mail.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\team-members-with-media\icons\outline-mail.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/team-members-with-media/images/image-22.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\team-members-with-media\images\image-22.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/blocks/counters/images/image-1.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\counters\images\image-1.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/blocks/cta-with-extra-content/images/image-1.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\cta-with-extra-content\images\image-1.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/media-library/bc2fa27af6a24a1bb019b97db3e2babe/banner-bg.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\media-library\bc2fa27af6a24a1bb019b97db3e2babe\banner-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/common/icons/linkedin-logo.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\common\icons\linkedin-logo.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-1.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-1.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-2.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-2.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-3.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-3.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-4.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-4.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-5.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-5.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/partners/images/image-6.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\partners\images\image-6.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/media-library/3a281b5a2bc84837ae8436f58ab8c5de/heading-bg.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\media-library\3a281b5a2bc84837ae8436f58ab8c5de\heading-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/bundles/js/5569508b4a45d8894d1e234b6df2349d.js
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\bundles\js\5569508b4a45d8894d1e234b6df2349d.js
+Content Type: application/javascript
+
+Uri: https://web-spark.yolasite.com/ws/blocks/team-members-with-media/images/image-21.ws-intense-next-coworking.webp
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\team-members-with-media\images\image-21.ws-intense-next-coworking.webp
+Content Type: image/webp
+
+Uri: https://web-spark.yolasite.com/ws/blocks/team-members-with-media/images/image-22.ws-intense-next-coworking.webp
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\team-members-with-media\images\image-22.ws-intense-next-coworking.webp
+Content Type: image/webp
+
+Uri: https://web-spark.yolasite.com/ws/bundles/css/289fe60859bc9f1327ea80cc5673906c.css
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\bundles\css\289fe60859bc9f1327ea80cc5673906c.css
+Content Type: text/css
+
+Uri: https://web-spark.yolasite.com/ws/blocks/features-with-icons/icons/heart-2800.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\features-with-icons\icons\heart-2800.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/features-with-icons/icons/diamond-2813.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\features-with-icons\icons\diamond-2813.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/features-with-icons/icons/luxury-2814.ws-intense-next-coworking.svg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\features-with-icons\icons\luxury-2814.ws-intense-next-coworking.svg
+Content Type: image/svg+xml
+
+Uri: https://web-spark.yolasite.com/ws/blocks/product-with-media/images/image-1.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\product-with-media\images\image-1.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/alternative-images/w576/blocks/product-with-media/images/image-1.ws-intense-next-coworking.webp
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\alternative-images\w576\blocks\product-with-media\images\image-1.ws-intense-next-coworking.webp
+Content Type: image/webp
+
+Uri: https://web-spark.yolasite.com/ws/alternative-images/w576/blocks/product-with-media/images/image-1.ws-intense-next-coworking.jpg
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\alternative-images\w576\blocks\product-with-media\images\image-1.ws-intense-next-coworking.jpg
+Content Type: image/jpeg
+
+Uri: https://web-spark.yolasite.com/ws/blocks/product-with-media/images/image-1.ws-intense-next-coworking.webp
+File Name: c:\Downloaded Web Sites\web-spark.yolasite.com\ws\blocks\product-with-media\images\image-1.ws-intense-next-coworking.webp
+Content Type: image/webp
+
